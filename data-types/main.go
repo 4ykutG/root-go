@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	var message string = "hello world"
+	fmt.Println(message)
+
+	var eq int = 10
+	fmt.Println(eq)
+
+	var eq2 float32 = 0.1
+	fmt.Println(eq2)
+
+	eq3 := 25.2
+	fmt.Println(eq3)
+	fmt.Println("data type: %T", eq3)
+}
