@@ -15,4 +15,12 @@ func main() {
 	eq3 := 25.2
 	fmt.Println(eq3)
 	fmt.Println("data type: %T", eq3)
+
+	var status bool = false
+
+	var string1 string = "angora"
+	var string2 string = "dikmen"
+
+	status = string1 == string2
+	fmt.Println(status)
 }
