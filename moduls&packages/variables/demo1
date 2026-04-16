@@ -3,25 +3,15 @@ package variables
 import "fmt"
 
 func Demo1() {
-	var message string = "hello world"
-	fmt.Println(message)
+	var metin string = "merhaba dunya"
+	fmt.Print(metin)
+	fmt.Print(metin)
+	fmt.Print(metin)
+	fmt.Print(metin)
+	fmt.Println(metin)
 
-	var eq int = 10
-	fmt.Println(eq)
-
-	var eq2 float32 = 0.1
-	fmt.Println(eq2)
-
-	eq3 := 25.2
-	fmt.Println(eq3)
-	fmt.Println("data type: %T", eq3)
-
-	var status bool = false
-
-	var string1 string = "angora"
-	var string2 string = "dikmen"
-
-	status = string1 == string2
-	fmt.Println(status)
-	fmt.Println(!status)
+	var kdv int = 10
+	fmt.Println(kdv)
+	fmt.Println(100 + (100 * 10 / 100))
+	fmt.Println()
 }
